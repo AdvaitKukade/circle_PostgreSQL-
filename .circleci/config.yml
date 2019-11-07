@@ -13,7 +13,7 @@ jobs:
       - run: whoami 
       - run: | 
           psql \
-         -d $TEST_DATABASE_URL
+         -d $TEST_DATABASE_URL \ 
          -c show tables;
      # - run: |
      #     psql \ 
