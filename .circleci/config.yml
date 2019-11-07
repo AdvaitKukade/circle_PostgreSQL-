@@ -1,7 +1,7 @@
 version: 2.0
 jobs:
   build:
-    working_directory: /root
+   #working_directory: /root
     docker:
       - image: ubuntu:18.04
       - image: postgres:9.6.2-alpine
