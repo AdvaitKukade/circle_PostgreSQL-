@@ -14,7 +14,7 @@ jobs:
       - run: | 
           psql \
           -d $TEST_DATABASE_URL \ 
-          -c '\dt';
+          --command '\dt' 
      # - run: |
      #     psql \ 
      #     -d $TEST_DATABASE_URL \ 
